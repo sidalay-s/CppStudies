@@ -51,7 +51,7 @@ public:
     // getter
     std::string GetClass() const {return PlayerClass;}
 
-    void MoveCharacter(const float& X, const float& Y) override {
+    void MoveCharacter(float X, float Y) override {
         this->setPosX(X);
         this->setPosY(Y);
 

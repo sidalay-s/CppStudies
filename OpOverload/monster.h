@@ -54,7 +54,7 @@ public:
     std::string GetTemper() const {return Temperament;}
     bool GetFriendly() const {return Friendly;}
     
-    void MoveCharacter(const float& X, const float& Y) override {
+    void MoveCharacter(float X, float Y) override {
 
         this->setPosX(X);
         this->setPosY(Y);

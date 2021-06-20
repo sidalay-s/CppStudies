@@ -37,7 +37,7 @@ public:
     Character() = delete;
 
     // constructor
-    Character(const std::string& name, const float& X, const float& Y) 
+    Character(const std::string& name, float X, float Y) 
         : name{name}, PosX{X}, PosY{Y} {
             LOG("Character " << name << " has been constructed!");
     }
@@ -80,9 +80,9 @@ public:
 
 
     // setters
-    void setLevel(const int& num) {level = num;}
-    void setPosX(const float& X) {PosX = X;} 
-    void setPosY(const float& Y) {PosY = Y;} 
+    void setLevel(int num) {level = num;}
+    void setPosX(float X) {PosX = X;} 
+    void setPosY(float Y) {PosY = Y;} 
     // void setPosZ(const float Z) {PosZ = Z;}
      
     // getters
@@ -102,7 +102,7 @@ public:
     //     LOG("Character moved to PosX: " << X << " and PosY: " << Y);
     // }
 
-    virtual void MoveCharacter(const float& X, const float& Y) = 0;
+    virtual void MoveCharacter(float X, float Y) = 0;
 
     void operator++() {
         ++level;
