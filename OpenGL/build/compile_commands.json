@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Dev/VSCodeProjects/DianaStudies/OpenGL/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++2a -o CMakeFiles\\OpenGL.dir\\src\\main.cpp.obj -c C:\\Dev\\VSCodeProjects\\DianaStudies\\OpenGL\\src\\main.cpp",
+  "file": "C:/Dev/VSCodeProjects/DianaStudies/OpenGL/src/main.cpp"
+}
+]

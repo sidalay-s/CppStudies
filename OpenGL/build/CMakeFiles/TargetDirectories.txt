@@ -1,0 +1,5 @@
+C:/Dev/VSCodeProjects/DianaStudies/OpenGL/build/CMakeFiles/OpenGL.dir
+C:/Dev/VSCodeProjects/DianaStudies/OpenGL/build/CMakeFiles/package.dir
+C:/Dev/VSCodeProjects/DianaStudies/OpenGL/build/CMakeFiles/package_source.dir
+C:/Dev/VSCodeProjects/DianaStudies/OpenGL/build/CMakeFiles/edit_cache.dir
+C:/Dev/VSCodeProjects/DianaStudies/OpenGL/build/CMakeFiles/rebuild_cache.dir
