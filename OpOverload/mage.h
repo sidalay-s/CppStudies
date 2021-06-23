@@ -20,9 +20,6 @@ public:
             LOG("object has been copied");
     }
 
-    
-    
-
     void CastSpell(std::string Spellname) {
         for (auto i = 0; i < Spells.size(); ++i)
             if (Spellname == Spells.at(i).getType()) {

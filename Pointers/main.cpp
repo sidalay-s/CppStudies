@@ -68,7 +68,4 @@ int main() {
 
     std::cout << FuncPtr << std::endl;
     
-
-
 }
-    // i love youuuu :) <3
