@@ -1,5 +1,3 @@
-// обичам те :Щ
-
 #include <iostream>
 
 void PrintNum(int x) {
