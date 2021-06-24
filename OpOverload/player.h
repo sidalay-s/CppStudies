@@ -2,7 +2,7 @@
 #define PLAYER_H
 #include "character.h"
 
-class Player : public Character {
+class Player : public virtual Character {
 
 friend std::ostream& operator<<(std::ostream& os, const Player& rhs) {
     const Character* temp = &rhs;

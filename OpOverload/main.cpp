@@ -1,6 +1,7 @@
 #include "monster.h"
 #include "player.h"
 #include "mage.h"
+#include "tamed.h"
 
 
 int main() {
@@ -56,5 +57,7 @@ int main() {
     
     Sid.CastSpell("Fire");
     Sid.CastSpell("Thunder");
+
+    Tamed Rumby{"Rumby"};
 
 }

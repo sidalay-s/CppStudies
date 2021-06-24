@@ -2,6 +2,8 @@
 #define CHARACTER_H
 #include <string>
 #include <iostream>
+#include <utility>
+#include <tuple>
 #include "macros.h"
 #include "characterstats.h"
 
@@ -30,6 +32,8 @@ protected:
     size_t level {1};
     float PosX {};
     float PosY {};
+    std::pair<float, float> Position{};
+    std::tuple<float, float, float> xyz{};
     // float PosZ {};
 
 public:

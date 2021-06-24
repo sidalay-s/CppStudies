@@ -11,12 +11,12 @@ private:
 
 public:
     Mage(std::string name, std::string role = "None", float X = 10, float Y = 10) 
-        : Player{name, role, X, Y} {    
-            LOG("Mage " << name << " has been created and array of Spells has been filled!");
+        : Player{name, role, X, Y}, Character{name, X, Y} {    
+            LOG("Mage constructor has been called for " << name << " and array of Spells has been filled!");
     }
 
     Mage(const Mage& obj)
-        : Player(obj) {
+        : Player(obj), Character(obj) {
             LOG("object has been copied");
     }
 

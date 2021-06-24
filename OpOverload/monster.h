@@ -2,7 +2,7 @@
 #define MONSTER_H
 #include "character.h"
 
-class Monster : public Character {
+class Monster : public virtual Character {
 
 friend std::ostream& operator<<(std::ostream& os, const Monster& rhs) {
     const Character* temp = &rhs;
